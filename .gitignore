@@ -1,0 +1,25 @@
+# Ignore all image folders and files
+*/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Ignore all files in directories with "alexander" and "john" (or similar image folders)
+alexander/
+john/
+*/alexander/
+*/john/
+
+# Ignore any .DS_Store files (Mac OS)
+.DS_Store
+
+# Ignore all files except Jupyter notebooks
+*
+!*.ipynb
+
+# If you want to allow other specific files, you can "unignore" them like this:
+# !requirements.txt
+# !README.md
