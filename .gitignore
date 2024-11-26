@@ -8,8 +8,8 @@
 *.tiff
 
 # Ignore all files in directories with "alexander" and "john" (or similar image folders)
-alexander/
-john/
+Old_Images/alexander/
+Old_Images/john/
 */alexander/
 */john/
 
